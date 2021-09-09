@@ -28,7 +28,7 @@ function escapeHtml(message) {
 }
 
 function TwitchAPI(url) {
-    return $.getJSON(url + (url.search(/\?/) > -1 ? '&' : '?') + 'client_id=txe9if6h2jfb6vz9d6gf76u969uhua');
+    return $.getJSON(url + (url.search(/\?/) > -1 ? '&' : '?') + 'client_id=txe9if6h2jfb6vz9d6gf76u969uhua&client_secret=n967c2dchypjejm16gn6umoeapdskj&grant_type=client_credentials"');
 }
 
 Chat = {
