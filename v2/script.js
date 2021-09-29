@@ -465,7 +465,7 @@ Chat = {
 
     write: function(nick, info, message) {
         if (info) {
-            var $chatLine = $('<div></div>');
+            var $chatLine = $('');
             /*$chatLine.addClass('chat_line');*/
             $chatLine.attr('data-nick', nick);
             $chatLine.attr('data-time', Date.now());
