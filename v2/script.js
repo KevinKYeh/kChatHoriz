@@ -627,7 +627,7 @@ Chat = {
             });
             $message.html($message.html().trim());
             $chatLine.append($message);
-            Chat.info.lines.push($chatLine.wrap('<div>').parent().html());
+            Chat.info.lines.push($chatLine.parent().html());
         }
     },
 
